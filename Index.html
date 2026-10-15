@@ -1,0 +1,216 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata Nilam Nurmah Daniyah</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 25px;
+            background: linear-gradient(
+                135deg,
+                #5c0015,
+                #c2183a,
+                #ff8a9b
+            );
+            color: #fff;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 650px;
+            background: rgba(255, 255, 255, 0.13);
+            border: 1px solid rgba(255, 255, 255, 0.35);
+            border-radius: 25px;
+            padding: 35px;
+            text-align: center;
+            box-shadow: 0 15px 40px rgba(65, 0, 15, 0.3);
+            backdrop-filter: blur(12px);
+            animation: muncul 1s ease;
+        }
+
+        .bunga {
+            font-size: 65px;
+            margin-bottom: 10px;
+            animation: goyang 3s infinite ease-in-out;
+        }
+
+        h1 {
+            font-size: 29px;
+            margin-bottom: 10px;
+            color: #fff5f6;
+        }
+
+        .subtitle {
+            font-size: 15px;
+            color: #ffe0e6;
+            margin-bottom: 28px;
+        }
+
+        .garis {
+            width: 90px;
+            height: 4px;
+            background: #ffc0cb;
+            border-radius: 10px;
+            margin: 0 auto 25px;
+        }
+
+        .biodata {
+            text-align: left;
+        }
+
+        .item {
+            background: rgba(255, 255, 255, 0.14);
+            padding: 16px;
+            border-radius: 14px;
+            margin-bottom: 14px;
+            border-left: 4px solid #ffc0cb;
+            transition: 0.3s;
+        }
+
+        .item:hover {
+            background: rgba(255, 255, 255, 0.25);
+            transform: translateY(-3px);
+        }
+
+        .label {
+            display: block;
+            font-size: 12px;
+            color: #ffd5df;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            margin-bottom: 6px;
+        }
+
+        .nilai {
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 1.6;
+            overflow-wrap: anywhere;
+        }
+
+        .pesan {
+            margin-top: 25px;
+            font-size: 14px;
+            line-height: 1.8;
+            color: #fff0f3;
+            font-style: italic;
+        }
+
+        footer {
+            margin-top: 25px;
+            font-size: 12px;
+            color: #ffd5df;
+        }
+
+        @keyframes muncul {
+            from {
+                opacity: 0;
+                transform: translateY(25px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes goyang {
+            0%, 100% {
+                transform: rotate(-5deg);
+            }
+            50% {
+                transform: rotate(5deg);
+            }
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                padding: 25px 20px;
+            }
+
+            h1 {
+                font-size: 23px;
+            }
+
+            .bunga {
+                font-size: 55px;
+            }
+
+            .nilai {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <main class="container">
+        <div class="bunga">🌹</div>
+
+        <h1>Biodata Diri</h1>
+        <p class="subtitle">
+            Selamat datang di halaman biodataku 💗
+        </p>
+
+        <div class="garis"></div>
+
+        <section class="biodata">
+
+            <div class="item">
+                <span class="label">Nama Lengkap</span>
+                <div class="nilai">
+                    Nilam Nurmah Daniyah
+                </div>
+            </div>
+
+            <div class="item">
+                <span class="label">Sekolah</span>
+                <div class="nilai">
+                    SMK Banjar Asri
+                </div>
+            </div>
+
+            <div class="item">
+                <span class="label">Kelas</span>
+                <div class="nilai">
+                    X TJKT 1
+                </div>
+            </div>
+
+            <div class="item">
+                <span class="label">Alamat</span>
+                <div class="nilai">
+                    Kp. Petak RT 01 RW 13,
+                    Desa Pasirmulya, Kecamatan Banjaran,
+                    Kabupaten Bandung
+                </div>
+            </div>
+
+        </section>
+
+        <p class="pesan">
+            🌸 "Jadilah seperti bunga yang tetap mekar
+            meskipun melewati berbagai musim." 🌸
+        </p>
+
+        <footer>
+            Dibuat dengan ❤️ oleh Nilam Nurmah Daniyah
+        </footer>
+    </main>
+
+</body>
+</html>
